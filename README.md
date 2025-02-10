@@ -10,12 +10,12 @@ Projeto de Website de Petshop desenvolvido durante as aulas de Front-End. Nele �
 
 #### Abrir o projeto na IDE (VSCode) e digitar:
 
-```http
+```
   npm install
 ```
 #### Depois, basta inicializar a aplicação:
 
-```http
+```
   npm run dev
 ```
 
