@@ -30,3 +30,5 @@ Projeto de Website de Petshop desenvolvido durante as aulas de Front-End. Nele Ã
 ## 
 
 ![home](petshow-home.png)
+
+![cadastro](petshow-cadastro.png)
