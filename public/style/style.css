@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;  
+    text-decoration: none; 
+}
+
+body {
+    background-color: #FAF4F2;
+    font-family: "Afacad Flux", sans-serif;
+    height: 100vh;
+}
+
+header {
+    background-color: #F2E8E4;
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    display:flex;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+header a:hover {
+    color: grey;
+}
+
+a:visited {
+    color: black;
+}
+
+.logo__div {
+    display:flex;
+    align-items:center;
+    gap: 0.5rem;
+}
+
+.header__ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__button {
+    padding: 0.5rem 1rem;
+    border: 0;
+    background-color: #ec4917;
+    color: white;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    background-color: #aa543a; 
+    transition: 0.5s;
+}
+
+.header__button:visited {
+    color: white;
+}
+
+form {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.form__cadastro--service {
+    height: 55%;
+}
+
+label {
+    font-size: 24px;
+}
+
+.page__title {
+    font-size: 48px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+input, select {
+    height: 32px;
+    width: 100%;
+    border: none;
+    margin-top: 0.3rem;
+    border-radius:24px;
+    padding: 0.1rem 0.5rem;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.input__submit {
+    background-color: lightgrey;
+    font-weight: 600;
+    width: 10%;  
+}
+
+.input__error {
+    font-size: 16px;
+    color: red;
+}
+
+.input__submit:hover {
+    background-color: grey;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer {
+    height: 120px;
+    background-color: #F2E8E4;
+    box-shadow: rgba(0, 0, 0, 0.24) 8px 0px 0px 0px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+
+}
+
+.card__servico {
+    width: 20%;
+    background-color: #F2E8E4;
+    height: 450px;
+    margin: 1rem;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card__servico h2{
+    font-size: 30px;
+}
+
+.card__servico img {
+    width: 100%;
+    height: 43%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card__servico--info {
+    padding: 1rem;
+}
+
+.card__servico--preco {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.servicos__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+
+}
+
+.main__page {
+    width: 100%;
+    height: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main h1 {
+    font-size: 60px;
+}
+
+main p {
+    font-size: 24px;
+    margin-left: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+main img {
+    background-color: #F2E8E4;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.home__link--div {
+    display: flex;
+    gap: 2rem;
+    margin-left: 0.5rem;
+}
+
+.home__link, .denied__div a, .submit__login {
+    background-color: #ec4917;
+    padding: 0.5rem 1.5rem; 
+    color: white; 
+    border-radius: 12px;
+}
+
+.home__link:hover, .denied__div a:hover, .submit__login:hover {
+    cursor: pointer;
+    background-color: #aa543a; 
+    transition: 0.5s;
+}
+
+.home__link:visited {
+    color: white;
+}
+
+.main__alternative {
+    width:100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9rem;
+    align-items: center;
+}
+
+.denied__div {
+    display: flex;
+    gap: 2rem;
+}
+
+.main__details {
+    width: 100%;
+    height: 90%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__user, .card__services {
+    background-color:#F2E8E4;
+    padding: 3rem 3rem 4rem 3rem;
+    height: 70%;
+    border-radius: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 35%;
+}
+
+.card__services {
+    overflow: auto;
+}
+
+.card__services h1 {
+    margin-bottom: 2rem;
+}
+
+.card__services h2 {
+    margin-left: 0.75rem;
+    font-size: 30px;
+}
+
+.card__services--widget {
+    background-color: #ebd5cd;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.card__user h1 {
+    margin-bottom: 1.5rem;
+}
+
+.login__div {
+    width: 30%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: #F2E8E4;
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.login__div input {
+    width: 100%; 
+    margin-bottom: 1rem;  
+}
+
+.submit__login {
+    border: 0;
+    margin: 0.5rem 0;
+}

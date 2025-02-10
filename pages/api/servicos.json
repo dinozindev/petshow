@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "nome": "Banho",
+        "descricao": "Limpeza completa do animal, utilizando shampoos e produtos específicos para diferentes tipos de pelagem e pele.",
+        "preco": 70.00,
+        "imagem": "https://www.patasdacasa.com.br/sites/default/files/2024-06/banho-em-cachorro.jpg"
+        
+    },
+    {
+        "id": 2,
+        "nome": "Tosa Completa",
+        "descricao": "Corte de pelos em todo o corpo, seguindo o estilo desejado ou recomendado para a raça.",
+        "preco": 70.00,
+        "imagem": "https://www.petz.com.br/blog/wp-content/uploads/2019/02/tipos-de-tosa-1280x720.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Tosa Higiênica",
+        "descricao": "Corte de pelos nas áreas mais sensíveis do animal, como em volta dos olhos, orelhas, patas e genitais.",
+        "preco": 50.00,
+        "imagem": "https://petindica.com.br/wp-content/uploads/elementor/thumbs/o-que-voce-precisa-saber-sobre-tosa-higienica-em-cachorros-q0wgmh6lm8euzjwdvgaw1g7y1z92fmcvgzy68688kw.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Consulta Veterinária",
+        "descricao": " Atendimento médico geral para verificar a saúde do animal.",
+        "preco": 300.00,
+        "imagem": "https://cdn.prod.website-files.com/6165a581b7f0857cdb71f925/6307c90e1c61a89e660cd4c1_veterinary-post-operative-care-for-pets-2021-10-21-02-26-38-utc%20(1).jpg"
+    },
+    {
+        "id": 5,
+        "nome": "Hotel Pet",
+        "descricao": "Serviço de hospedagem onde os donos podem deixar seus pets sob cuidado especializado por períodos de tempo, como durante viagens.",
+        "preco": 240.00,
+        "imagem": "https://blog.cobasi.com.br/wp-content/webpc-passthru.php?src=https://blog.cobasi.com.br/wp-content/uploads/2019/05/hoteis-pet-friendly-capa.jpg&nocache=1"
+    },
+    {
+        "id": 6,
+        "nome": "Daycare (Creche)",
+        "descricao": "Serviço de cuidado diário para animais, permitindo que eles fiquem em um ambiente seguro e socializem com outros pets enquanto os donos trabalham.",
+        "preco": 120.00,
+        "imagem": "https://www.pedigree.com.br/sites/g/files/fnmzdf2401/files/2023-07/creche-para-cachorro-01.jpg"
+    },
+    {
+        "id": 7,
+        "nome": "Adestramento",
+        "descricao": "Serviço de adestramento para os Pets aprenderem comandos básicos de obediência e comportamento, além de truques.",
+        "preco": 150.00,
+        "imagem": "https://www.whiskas.com.br/sites/g/files/fnmzdf2156/files/2022-11/eduquer-son-chat-faire-obeir-votre-chat-mobile.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "Transporte do Pet",
+        "descricao": "Serviço de transporte seguro para levar os animais até o petshop ou ao veterinário.",
+        "preco": 20.00,
+        "imagem": "https://blog-static.petlove.com.br/wp-content/uploads/2020/10/12015949/caixa-de-transporte-para-gatos-Petlove.jpg"
+    }
+]
